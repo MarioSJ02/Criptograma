@@ -18,3 +18,14 @@ Instala la librería Cryptography con:
   Instala mysql.connector ejecutando el siguiente comando:
    ```bash
      pip3 install mysql-connector-python
+   
+## Parámetros de conexión a la base de datos
+
+```python
+config = {
+    'user': 'root',
+    'password': '',
+    'host': 'localhost',
+    'database': 'keys',
+    'port': '3306',
+}
