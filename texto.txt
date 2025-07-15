@@ -1,0 +1,16 @@
+Criptograma/
+│
+├── prueba cifrado.txt # Archivo de prueba para cifrar/descifrar
+├── private_key.pem # Clave privada generada
+├── public_key.pem # Clave pública generada
+│
+├── dbManager.py # Módulo para manejar la base de datos de claves
+├── keyManager.py # Generación, carga y gestión de claves RSA
+├── fileManager.py # Funciones para cifrado y descifrado de archivos
+├── serverManager.py # Envío de clave pública mediante TCP
+├── layoutManager.py # Gestión del diseño (si hay interfaz)
+├── main.py # Script principal del programa
+│
+├── Script creacion BD/ # Scripts o datos para inicializar la base de datos
+├── cliente/ # Código del cliente que recibe la clave pública
+└── pycache/ # Archivos compilados automáticamente
