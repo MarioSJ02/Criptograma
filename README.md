@@ -4,7 +4,7 @@ Desarrollo en Python de un programa de cifrado y descifrado como TFG basado en c
 # Instrucciones de instalación
 
 Para ejecutar este proyecto, asegúrate de tener instaladas las siguientes dependencias:
-
+## Linux
 1. **Tkinter**  
    Ejecuta el siguiente comando para instalar Tkinter:  
    ```bash
@@ -13,13 +13,24 @@ Para ejecutar este proyecto, asegúrate de tener instaladas las siguientes depen
 Instala la librería Cryptography con:
     ```bash
     pip3 install cryptography
-3.
-   **MySQL Connector**
+3. **MySQL Connector**
   Instala mysql.connector ejecutando el siguiente comando:
    ```bash
      pip3 install mysql-connector-python
+
+## Windows
+1. **Tkinter**
+   Viene incluido con Python en Windows. Solo asegúrate de tener Python instalado correctamente, verifica con:
+   ```bash
+   python -m tkinter
+3. **Cryptography**
+   ```bash
+   pip install cryptography
+5. **MySQL Connector**
+   ```bash
+   pip install mysql-connector-python
    
-## Parámetros de conexión a la base de datos
+# Parámetros de conexión a la base de datos
 
       ```python
       config = {
