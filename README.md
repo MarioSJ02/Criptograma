@@ -21,11 +21,12 @@ Instala la librería Cryptography con:
    
 ## Parámetros de conexión a la base de datos
 
-```python
-config = {
-    'user': 'root',
-    'password': '',
-    'host': 'localhost',
-    'database': 'keys',
-    'port': '3306',
-}
+      ```python
+      config = {
+       'user': 'root',
+       'password': '',
+       'host': 'localhost',
+       'database': 'keys',
+       'port': '3306',
+      }
+**Nota:** Asegúrate de modificar estos parámetros según tu configuración local 
