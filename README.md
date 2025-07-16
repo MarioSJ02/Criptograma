@@ -87,7 +87,7 @@ Instala la librería Cryptography con:
    
 # Parámetros de conexión a la base de datos
 
-      ```python
+```python
       config = {
        'user': 'root',
        'password': 'root',
@@ -95,4 +95,5 @@ Instala la librería Cryptography con:
        'database': 'keys',
        'port': '3306',
       }
+```
 **Nota:** Asegúrate de modificar estos parámetros en el archivo dbmanager.py según tu configuración local 
