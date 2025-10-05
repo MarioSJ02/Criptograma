@@ -1,4 +1,4 @@
-# TFG: Cifrado y Descifrado de Archivos con Criptografía Asimétrica
+# Cifrado y Descifrado de Archivos con Criptografía Asimétrica
 
 Este proyecto implementa un sistema de **cifrado y descifrado de archivos** usando **criptografía asimétrica** (RSA) con Python. Incluye funcionalidades para la generación y gestión de claves, transmisión segura de claves públicas por red mediante TCP, y almacenamiento persistente de claves en una base de datos.
 
