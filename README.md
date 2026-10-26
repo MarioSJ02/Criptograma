@@ -19,7 +19,7 @@ Este proyecto implementa un sistema de **cifrado y descifrado de archivos** usan
   - Cliente TCP capaz de recibir y almacenar la clave pública.
 
 - 💾 **Persistencia de claves en base de datos**
-  - Guardado de claves en una base de datos SQLite.
+  - Guardado de claves en una base de datos MySQL.
   - Recuperación posterior de claves por identificador.
 
 ---
