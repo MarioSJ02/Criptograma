@@ -100,5 +100,5 @@ Instala la librería Cryptography con:
 ```
 **Nota:** Asegúrate de modificar estos parámetros en el archivo dbmanager.py según tu configuración local 
 
-##LIMITACIONES
+## LIMITACIONES
 RSA cifra directamente el contenido del archivo, y con una clave de 2048 bits eso solo permite archivos muy pequeños, de unos 190 bytes. Lo habitual es cifrar el archivo con AES y proteger la clave AES con RSA (cifrado híbrido).
